@@ -22,7 +22,7 @@ publishing {
       groupId 'com.zhihu.android'
       version = "0.4.4-SNAPSHOT"
       artifactId 'matisse'
-      artifact("${buildDir}/matisse/build/outputs/aar/matisse-${artifactory_artifact_type}.aar")
+      artifact("${rootDir}/matisse/build/outputs/aar/matisse-${artifactory_artifact_type}.aar")
     }
   }
 }
